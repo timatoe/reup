@@ -1,0 +1,27 @@
+name: reup
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^6.0.1  
+  equatable: ^1.2.3
+  flutter_secure_storage: ^3.3.4
+  formz: ^0.3.1
+  http: ^0.12.2
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
