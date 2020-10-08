@@ -16,6 +16,7 @@ dependencies:
   flutter_secure_storage: ^3.3.4
   formz: ^0.3.1
   http: ^0.12.2
+  universal_html: ^1.2.3
   cupertino_icons: ^1.0.0
 
 dev_dependencies:

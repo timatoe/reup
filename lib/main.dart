@@ -10,7 +10,7 @@ import 'app.dart';
 import 'data/authentication_repository.dart';
 import 'data/user_repository.dart';
 import 'package:http/http.dart' as http;
-import 'dart:html' show window;
+import 'package:universal_html/html.dart' show window;
 
 void main() {
   Bloc.observer = SimpleBlocObserver();
